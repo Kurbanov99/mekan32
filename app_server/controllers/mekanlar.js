@@ -22,24 +22,24 @@ const anaSayfa = function(req, res, next) {
           'mesafe' : '5km'
         },
         {
-          'ad' : 'Kahve Dünyası',
-          'adres' : 'Iyaş Avm',
+          'ad' : 'Dor',
+          'adres' : 'Fatih Mahallesi',
           'puan' : '3',
-          'imkanlar' : ['Kahve', 'Kek', 'Pasta'],
+          'imkanlar' : ['Kahve', 'Çay', 'Pasta'],
           'mesafe' : '5km'
         },
         {
           'ad' : 'MackBear',
           'adres' : 'Fatih Mahallesi',
           'puan' : '2',
-          'imkanlar' : ['Kahve Çeşitleri', 'Kek', 'Pasta'],
+          'imkanlar' : ['Kahve', 'Kek', 'Pasta'],
           'mesafe' : '6km'
         },
         {
-          'ad' : 'DipNot',
-          'adres' : 'Boğaziçi Koleji Karşısı',
+          'ad' : 'BayDöner',
+          'adres' : 'Iyaş',
           'puan' : '5',
-          'imkanlar' : ['Kahve', 'Kek', 'Çay', 'Tost', 'Çalışma Alanları'],
+          'imkanlar' : ['Döner', 'Çay', 'Kola', 'İceTea'],
           'mesafe' : '7km'
         }
       ]
