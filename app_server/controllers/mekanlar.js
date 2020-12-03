@@ -1,7 +1,7 @@
 const anaSayfa = function(req, res, next) {
   res.render('mekanlar-liste',
     { title : 'Anasayfa',
-      'footer' : 'Faruk Zeren 2020',
+      'footer' : 'Rozymurat Kurbanov 2020',
       'sayfaBaslik' : {
         'siteAd' : 'Mekan 32',
         'aciklama' : 'Isparta civarındaki mekanları keşfedin!'
@@ -51,7 +51,7 @@ const mekanBilgisi = function(req, res, next) {
   res.render('mekan-detay', 
     { title : 'Mekan Bilgisi',
       'sayfaBaslik' : 'Starbucks',
-      'footer' : 'Faruk Zeren 2020',
+      'footer' : 'Rozymurat Kurbanov 2020',
       'mekanBilgisi' : {
         'ad' : 'Starbucks',
         'adres' : 'Centrum Garden',
@@ -81,16 +81,10 @@ const mekanBilgisi = function(req, res, next) {
         ],
         'yorumlar' : [
           {
-            'yorumYapan' : 'Faruk Zeren',
-            'puan' : '3',
-            'tarih' : '26.11.2020',
-            'yorumMetni' : 'Özensiz çalışanlar.'
-          },
-          {
-            'yorumYapan' : 'Ahmet Mehmet',
+            'yorumYapan' : 'Rozymurat Kurbanov',
             'puan' : '5',
             'tarih' : '27.11.2020',
-            'yorumMetni' : 'Kahveleri çeşitliliği fazla.'
+            'yorumMetni' : 'Kahveleri çok güzel.'
           },
           {
             'yorumYapan' : 'Asım Sinan Yüksel',
@@ -108,7 +102,7 @@ const yorumEkle = function(req, res, next) {
   res.render('yorum-ekle', 
     { 
       title : 'Yorum Ekle',
-      'footer' : 'Faruk Zeren 2020'
+      'footer' : 'Rozymurat Kurbanov 2020'
     }
   );
 }
